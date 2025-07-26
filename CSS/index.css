@@ -292,11 +292,11 @@
 #Gallery .container .row{
     display: flex;
     flex-wrap: wrap;
-    width: 70%;
+    width: 90%;
     margin: 45px auto 0;
 }
 #Gallery .container .row .col{
-    flex-basis: 50%;
+    flex-basis: calc(100%/3);
     margin:auto;
 }
 #Gallery .container .row .col .img img{
@@ -406,6 +406,7 @@
 }
 
 /* -------FOOTER------- */
+
 
 
 
