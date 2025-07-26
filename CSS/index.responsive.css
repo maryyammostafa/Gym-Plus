@@ -1,0 +1,382 @@
+@media (max-width: 1300px) {
+    #Home nav .container{
+        width: 90%;
+        padding-top: 15px;
+    }
+    #Home nav .container .part1 h1{
+        font-size: 25px;
+    }
+    #Home nav .container .part2{
+        justify-content: end;
+        padding-top: 0;
+    }
+    #Home nav .container .part2 ul{
+        display: none;
+    }
+    #Home nav .container .part2 .navButton{
+        display: block;
+    }
+    #Home .box .container h2{
+        font-size: 30px;
+    }
+    #Home .box .container h4{
+        font-size: 20px;
+    }
+    #Home .box .container button{
+        padding: 10px 15px;
+    }
+
+    section{
+        padding-block: 30px;
+    }
+
+    #About .container .part{
+    flex-basis: 100%;
+    }
+    #About .container .part1 .item h2{
+        font-size: 26px;
+    }
+
+    .title h2{
+        font-size: 25px;
+    }
+
+    #Services .container .row {
+        width: 100%;
+    }
+    #Services .container .row:nth-of-type(2),
+    #Services .container .row:nth-of-type(4){
+        flex-direction: column-reverse;
+    }
+    #Services .container .row .item1,
+    #Services .container .row .item2{
+        flex-basis: 100%;
+    }
+    #Services .container .row .item1 h3{
+        font-size: 25px;
+    }
+    #Services .container .row .item2 i{
+        margin-bottom: 15px;
+    }
+
+    #Clients .container .row{
+        width: 100%;
+    }
+    #Clients .container .row .part{
+        flex-basis: 100%;
+        margin-top: 15px;
+    }
+    #Clients .container .row .part .item{
+        margin-inline: 0;
+    }
+    #Clients .container .row .part .item h4{
+        font-size: 20px;
+    }
+
+    #Trainers .container .row .card{
+        flex-basis: 100%;
+    }
+    #Trainers .container .row .card .item{
+        margin: 22px 11px;
+    }
+    #Trainers .container .row .card .item h4{
+        font-size: 20px;
+    }
+    #Trainers .container .row .card .item h6{
+        font-size: 15px;
+    }
+
+    #Gallery .container .row{
+        width: 85%;
+    }
+    #Gallery .container .row .col{
+        flex-basis: 100%;
+    }
+    #Gallery .container .row .col .img img{
+        margin-bottom: 15px;
+    }
+
+    #Contact iframe{
+        height: 350px;
+    }
+    #Contact .container .row .col{
+        flex-basis: 100%;
+    }
+    #Contact .container .row .col .item{
+        margin-top: 20px;
+    }
+    #Contact .container form{
+        width: 85%;
+    }
+    #Contact .container form .input{
+        flex-basis: 100%;
+    }
+    #Contact .container form .input .item{
+        margin: 10px;
+    }
+    #Contact .container form .input textarea{
+        width: 100%;
+    }
+    #Contact .container form .btn button{
+        margin: 20px 0;
+    }
+}
+
+@media (min-width: 371px) and (max-width: 1300px) {
+    #Home .box .container h2{
+        font-size: 40px;
+    }
+    #Home .box .container h4{
+        font-size: 30px;
+    }
+    #Home .box .container button{
+        padding: 13px 18px;
+    }
+
+    .title h2{
+        font-size: 30px;
+    }
+
+    #Services .container .row {
+        width: 80%;
+    }
+
+    #Clients .container .row{
+        width: 90%;
+    }
+    #Clients .container .row .part .item{
+        margin-inline: 5px;
+    }
+    #Clients .container .row .part .item h4{
+        font-size: 22px;
+    }
+
+    #Trainers .container .row .card{
+        flex-basis: 76%;
+    }
+    #Trainers .container .row .card .item h4{
+        font-size: 25px;
+    }
+    #Trainers .container .row .card .item h6{
+        font-size: 18px;
+    }
+
+    #Gallery .container .row{
+        width: 70%;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 1300px) {
+    #Home nav .container{
+        width: 93%;
+    }
+    #Home nav .container .part1 h1{
+        font-size: 40px;
+    }
+    #Home .box .container h2{
+        font-size: 45px;
+    }
+    #Home .box .container h4{
+        font-size: 35px;
+    }
+    #Home .box .container button{
+        padding: 14px 20px;
+    }
+
+    #About .container .part1 .item h2{
+        font-size: 30px;
+    }
+
+    .title h2{
+        font-size: 35px;
+    }
+
+    #Services .container .row {
+        width: 65%;
+    }
+
+    #Clients .container .row{
+        width: 65%;
+    }
+
+    #Trainers .container .row .card{
+        flex-basis: 55%;
+    }
+
+    #Gallery .container .row{
+        width: 55%;
+    }
+
+    #Contact .container form{
+        width: 75%;
+    }
+    #Contact .container form .input textarea{
+        width: 96%;
+    }
+    #Contact .container form .btn button{
+        margin: 20px 7px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1300px) {
+    #Home .box .container h2{
+        font-size: 48px;
+    }
+    #Home .box .container h4{
+        font-size: 38px;
+    }
+
+    #About .container .part{
+    flex-basis: 50%;
+    }
+    #About .container .part1 .item h2{
+        font-size: 35px;
+    }
+
+    .title h2{
+        font-size: 35px;
+    }
+
+    #Services .container .row {
+        width: 100%;
+    }
+    #Services .container .row:nth-of-type(2),
+    #Services .container .row:nth-of-type(4){
+        flex-direction: row;
+    }
+    #Services .container .row .item1{
+        flex-basis: 65%;
+    }
+
+    #Services .container .row .item2{
+        flex-basis: 35%;
+    }
+    #Services .container .row .item1 h3{
+        font-size: 28px;
+    }
+
+    #Clients .container .row{
+        width: 95%;
+    }
+    #Clients .container .row .part{
+        flex-basis: 50%;
+        margin-top: 12px;
+    }
+    #Clients .container .row .part .item{
+        margin-inline: 15px;
+    }
+    #Clients .container .row .part .item h4{
+        font-size: 25px;
+    }
+
+    #Trainers .container .row .card{
+        flex-basis: 50%;
+    }
+    #Trainers .container .row .card .item{
+        margin-inline: 40px;
+    }
+
+    #Gallery .container .row{
+        width: 100%;
+    }
+    #Gallery .container .row .col{
+        flex-basis: calc(100%/3);
+    }
+    #Gallery .container .row .col .img img{
+        margin-bottom: 0px;
+    }
+
+    #Contact .container .row .col{
+        flex-basis: calc(100%/3);
+    }
+    #Contact .container form{
+        width: 85%;
+    }
+    #Contact .container form .input{
+        flex-basis: calc(100%/3);
+    }
+    #Contact .container form .input textarea{
+        width: 97%;
+    }
+    #Contact .container form .btn button{
+        margin: 20px 6px;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1300px) {
+    #Home nav .container .part2 ul{
+        display: flex;
+    }
+    #Home nav .container .part2 .navButton{
+        display: none;
+    }
+    #Home .box .container h2{
+        font-size: 50px;
+    }
+    #Home .box .container h4{
+        font-size: 40px;
+    }
+
+    section{
+        padding-block: 40px;
+    }
+
+    #About .container .part1 .item h2{
+        font-size: 37px;
+    }
+
+    .title h2{
+        font-size: 40px;
+    }
+
+    #Services .container .row .item1 h3{
+        font-size: 30px;
+    }
+
+    #Clients .container .row .part .item{
+        margin-inline: 40px;
+    }
+
+    #Trainers .container .row .card{
+        flex-basis: 50%;
+    }
+    #Trainers .container .row .card .item{
+        margin: 20px 60px;
+    }
+
+    #Contact .container form{
+        width: 90%;
+    }
+    #Contact .container form .btn button{
+        margin: 20px 10px;
+    }
+}
+
+@media (min-width: 1181px) and (max-width: 1300px) {
+    .container{
+        width: 90%;
+    }
+
+    #Home nav .container{
+        width: 95%;
+    }
+
+    #Clients .container .row .part .item{
+        margin-inline: 50px;
+    }
+
+    #Trainers .container .row .card{
+        flex-basis: 25%;
+    }
+    #Trainers .container .row .card .item{
+        margin-inline: 11px;
+        
+    }
+
+    #Contact .container form .input textarea{
+        width: 98%;
+    }
+    #Contact .container form .btn button{
+        margin: 20px 10px;
+    }
+}
