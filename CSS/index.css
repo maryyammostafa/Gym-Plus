@@ -126,6 +126,7 @@
     font-weight: 300;
     line-height: 1.5;
     margin-bottom: 15px;
+    color: #212529;
 }
 #About .container .part2 .item img{
     display:block;
@@ -157,7 +158,6 @@
 #Services .container .row .item1 p{
     margin-block: 17px;
     line-height: 1.5;
-    color: #000;
 }
 #Services .container .row .item1 button{
     background-color: #000;
@@ -214,6 +214,7 @@
 }
 #Clients .container .row .part .item p{
     line-height: 1.5;
+    color: #212529;
 }
 #Clients .container .row .part .item h4{
     color: var(--mainColor);
@@ -262,7 +263,6 @@
 }
 #Trainers .container .row .card .item p{
     line-height: 1.5;
-    color: #000;
 }
 #Trainers .container .row .card .item .icons a{
     background-color: var(--mainColor);
@@ -381,6 +381,12 @@
     margin-top: 20px;
     font-size: 15px;
 }
+#Contact .container form .input .item input:focus,
+#Contact .container form .input textarea:focus{
+    outline: none;
+    border-bottom: 1px solid transparent;
+    box-shadow: 0 0 5px var(--mainColor);
+}
 #Contact .container form .btn{
     flex-basis: 100%;
 }
@@ -395,18 +401,118 @@
     transition-duration: .2s;
     cursor: pointer;
 }
-#Contact .container form .input .item input:focus,
-#Contact .container form .input textarea:focus{
-    outline: none;
-    border-bottom: 1px solid transparent;
-    box-shadow: 0 0 5px var(--mainColor);
-}
 #Contact .container form .btn button:hover{
     background-color: var(--mainColor);
 }
 
 /* -------FOOTER------- */
 
+footer{
+    background-color: #333333;
+    padding-top: 30px;
+    border-top: 2px solid #2f2b63;
+}
+footer .container .row{
+    display: flex;
+    flex-wrap: wrap;
+}
+footer .container .row .col{
+    flex-basis: calc(100%/3);
+}
+footer .container .row .col .item{
+    margin: 0 5px;
+}
+footer .container .row .col h5{
+    font-size: 20px;
+    color: var(--mainColor);
+    margin: 20px 0;
+}
 
+footer .container .row .col .item ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    list-style: none;
+}
+footer .container .row .col .item ul li{
+    margin-block: 5px;
+}
+footer .container .row .col .item ul li a{
+    color: #fff;
+    text-decoration: none;
+    transition-duration: .5s;
+}
+footer .container .row .col .item ul li a:hover{
+    color: var(--mainColor);
+}
 
+footer .container .row .col .item .row1{
+    display: flex;
+    flex-wrap: wrap;
+}
+footer .container .row .col .item .row1 .img{
+    flex-basis: calc(100%/3);
+}
+footer .container .row .col .item .row1 .img img{
+    width: 80%;
+    padding-top: 10px;
+}
 
+footer .container .row .col .row2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+}
+footer .container .row .col .row2 .col1{
+    flex-basis: 50%;
+}
+footer .container .row .col .row2 .col1:nth-of-type(2){
+    text-align: end;
+}
+footer .container .row .col .row2 .col1 .item{
+    margin: 0;
+    margin-bottom: 15px;
+    border-bottom: 2px solid var(--mainColor);
+    padding-block: 5px;
+}
+footer .container .row .col .row2 .col1 .item p{
+    color: #fff;
+    font-family: "Agency FB Bold", arial;
+}
+
+footer .footer{
+    border-top: 1px solid #fff;
+    text-align: center;
+    padding-bottom: 20px;
+}
+footer .footer p{
+    color: #fff;
+    margin-block: 25px;
+}
+footer .footer p span{
+    color: var(--mainColor);
+}
+footer .footer .icons a{
+    background-color: var(--mainColor);
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #000;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    margin: 7px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: .5s;
+}
+footer .footer .icons a:hover{
+    background-color: #fff;
+    color: var(--mainColor);
+}
+
+a.top{
+    position: fixed;
+    bottom: 13px;
+    right: 13px;
+}
