@@ -191,6 +191,13 @@
         width: 70%;
     }
 
+    #Contact .container form .input textarea{
+        width: 95%;
+    }
+    #Contact .container form .btn button{
+        margin: 20px 7px;
+    }
+
     footer .container .row .col .item ul li{
         flex-basis: 25%;
         margin: 5px 0;
@@ -244,9 +251,6 @@
     #Contact .container form .input textarea{
         width: 96%;
     }
-    #Contact .container form .btn button{
-        margin: 20px 7px;
-    }
 
     footer .container .row .col .item .row1 .img{
         flex-basis: calc(100%/3);
@@ -286,7 +290,6 @@
     #Services .container .row .item1{
         flex-basis: 65%;
     }
-
     #Services .container .row .item2{
         flex-basis: 35%;
     }
