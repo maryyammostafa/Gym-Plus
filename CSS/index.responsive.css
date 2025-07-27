@@ -112,13 +112,13 @@
         flex-basis: 100%;
     }
     #Contact .container form .input .item{
-        margin: 10px;
+        margin: 10px 0;
+    }
+    #Contact .container form .input:nth-of-type(2) .item{
+        margin: 10px 0;
     }
     #Contact .container form .input textarea{
         width: 100%;
-    }
-    #Contact .container form .btn button{
-        margin: 20px 0;
     }
 
     footer .container .row .col{
@@ -191,13 +191,6 @@
         width: 70%;
     }
 
-    #Contact .container form .input textarea{
-        width: 95%;
-    }
-    #Contact .container form .btn button{
-        margin: 20px 7px;
-    }
-
     footer .container .row .col .item ul li{
         flex-basis: 25%;
         margin: 5px 0;
@@ -246,10 +239,7 @@
     }
 
     #Contact .container form{
-        width: 75%;
-    }
-    #Contact .container form .input textarea{
-        width: 96%;
+        width: 72%;
     }
 
     footer .container .row .col .item .row1 .img{
@@ -337,11 +327,8 @@
     #Contact .container form .input{
         flex-basis: calc(100%/3);
     }
-    #Contact .container form .input textarea{
-        width: 97%;
-    }
-    #Contact .container form .btn button{
-        margin: 20px 6px;
+    #Contact .container form .input:nth-of-type(2) .item{
+        margin-inline: 20px;
     }
 
     footer .container .row .col .item .row1 .img img{
@@ -398,9 +385,6 @@
     #Contact .container form{
         width: 90%;
     }
-    #Contact .container form .btn button{
-        margin: 20px 10px;
-    }
 
     footer .container .row .col{
         flex-basis: calc(100%/3);
@@ -443,10 +427,7 @@
         
     }
 
-    #Contact .container form .input textarea{
-        width: 98%;
-    }
-    #Contact .container form .btn button{
-        margin: 20px 10px;
+    #Contact .container form .input:nth-of-type(2) .item{
+        margin-inline: 30px;
     }
 }

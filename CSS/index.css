@@ -360,8 +360,8 @@
 #Contact .container form .input:nth-of-type(4){
     flex-basis: 100%;
 }
-#Contact .container form .input .item{
-    margin-inline: 15px;
+#Contact .container form .input:nth-of-type(2) .item{
+    margin-inline: 30px;
 }
 #Contact .container form .input .item input,
 #Contact .container form .input textarea{
@@ -373,7 +373,6 @@
     font-size: 15px;
 }
 #Contact .container form .input textarea{
-    width: 97%;
     display: block;
     margin: auto;
     height: 200px;
@@ -394,7 +393,7 @@
     background-color: #000;
     color: #fff;
     padding: 10px 32px;
-    margin: 20px 13px;
+    margin: 20px 0px;
     border: none;
     border-radius: 5px;
     font-size: 16px;
