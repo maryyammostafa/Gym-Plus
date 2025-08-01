@@ -9,7 +9,7 @@ html{
 }
 
 body{
-    font-family: PT Sans, sans-serif;
+    font-family: "PT Sans", sans-serif;
 }
 
 section{
@@ -19,6 +19,11 @@ section{
 .container{
     width: 85%;
     margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 h1,

@@ -141,8 +141,6 @@
     background-color: var(--mainColor);
 }
 #Services .container .row{
-    display: flex;
-    flex-wrap: wrap;
     width: 90%;
     margin: 50px auto;
 }
@@ -199,8 +197,6 @@
     color: #212529;
 }
 #Clients .container .row{
-    display: flex;
-    flex-wrap: wrap;
     width: 95%;
     margin: auto;
 }
@@ -230,10 +226,6 @@
 
 #Trainers{
     background-color: var(--mainColor);
-}
-#Trainers .container .row{
-    display: flex;
-    flex-wrap: wrap;
 }
 #Trainers .container .row .card{
     flex-basis: 25%;
@@ -290,8 +282,6 @@
     color: #212529;
 }
 #Gallery .container .row{
-    display: flex;
-    flex-wrap: wrap;
     width: 90%;
     margin: 45px auto 0;
 }
@@ -314,10 +304,6 @@
 #Contact .container .title h2{
     color: #212529;
     margin-top: 40px;
-}
-#Contact .container .row{
-    display: flex;
-    flex-wrap: wrap;
 }
 #Contact .container .row .col{
     flex-basis: calc(100%/3);
@@ -410,10 +396,6 @@ footer{
     background-color: #333333;
     padding-top: 30px;
     border-top: 2px solid #2f2b63;
-}
-footer .container .row{
-    display: flex;
-    flex-wrap: wrap;
 }
 footer .container .row .col{
     flex-basis: calc(100%/3);
