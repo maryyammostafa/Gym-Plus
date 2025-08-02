@@ -284,6 +284,8 @@
 #Gallery .container .row{
     width: 90%;
     margin: 45px auto 0;
+    border-radius: 10px;
+    overflow: hidden;
 }
 #Gallery .container .row .col{
     flex-basis: calc(100%/3);
